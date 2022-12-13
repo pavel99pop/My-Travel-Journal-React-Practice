@@ -1,1 +1,19 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
 
+.header {
+  background: #ff6566;
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.header-icon {
+  max-height: 30px;
+  margin-right: 10px;
+}
