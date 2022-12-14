@@ -4,8 +4,10 @@ body {
 
 .header {
   background: #ff6566;
+  padding: 8px 0;
+  margin-bottom: 80px;
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,19 +16,21 @@ body {
 }
 
 .header-icon {
-  max-height: 30px;
+  max-height: 24px;
   margin-right: 10px;
 }
 
 .container {
-  margin: 60px 40px;
+  margin: 40px 40px;
+  padding-bottom: 40px;
   display: flex;
   align-items: center;
+  border-bottom: 1px solid lightgray;
 }
 
 .location-snapshot {
-  height: 400px;
-  width: 300px;
+  height: 350px;
+  width: 250px;
   border-radius: 10px;
 }
 .location-details {
