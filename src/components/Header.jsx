@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="header">
       <img className="header-icon" src={WorldIcon} alt="World Icon" />
-      <h1>my travel journal</h1>
+      <h2>my travel journal</h2>
     </div>
   );
 }

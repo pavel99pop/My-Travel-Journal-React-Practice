@@ -17,3 +17,50 @@ body {
   max-height: 30px;
   margin-right: 10px;
 }
+
+.container {
+  margin: 60px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.location-snapshot {
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+}
+.location-details {
+  margin-left: 80px;
+}
+
+.location-map {
+  display: flex;
+  align-items: center;
+}
+
+.location-map-pin {
+  height: 24px;
+}
+
+.location-details-country {
+  text-transform: uppercase;
+}
+
+.location-map-link {
+  margin-left: 12px;
+  color: gray;
+}
+
+.location-details-text {
+  /* margin-left: 4px; */
+}
+
+.location-details-text-title {
+  margin: 0;
+  font-size: 40px;
+}
+
+.location-details-text-timeline {
+  margin-top: 40px;
+  font-weight: bold;
+}
